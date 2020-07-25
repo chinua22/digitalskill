@@ -1,0 +1,177 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+}
+/* header and nav styling begins */
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #0000ff;
+  color: #ffffff;
+  height: 60px;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  color: #fff;
+  padding: 0 20px;
+}
+/* header and nav styling ends here */
+
+
+/* digital skill styling starts here */
+#skills {
+  background-image:  linear-gradient(rgba(0, 0, 0, 0.808), rgba(0, 0, 0, 0.24)), url("https://images.pexels.com/photos/1181395/pexels-photo-1181395.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+  background-size: 100% 100%;
+  padding: 150px;
+  margin-top: 3.7px;
+  text-align: center;
+  color: #ffffff; 
+}
+
+h1 {
+  font-size: 30px;
+}
+
+input {
+  width: 400px;
+  height: 25px;
+}
+
+label {
+  background: #FF9900;
+  margin: -4.7px;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+  padding-bottom: 3.5px;
+  padding-top: 3.5px;
+}
+/* digital skill styling ends here */
+
+
+/* training styling */
+.training {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+/* styling the course begins */
+.course {
+  text-align: center;
+  background: #0000ff;
+  width: 100%;
+  height: 450px;
+  padding: 30px 10px;
+}
+
+h4 {
+  font-size: 30px;
+  color: #ffffff;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-evenly;
+  height: 140px;
+}
+
+.flex-container p {
+  font-size: 15px;
+  margin-top: 60px;
+  text-align: left;
+  padding: 30px;
+}
+
+.types {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  font-size: 10px;
+  width: 270px;
+  height: 270px;
+}
+
+.blue {
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+  background-color: blue;
+}
+/* course styling ends */
+
+
+/* learn styling starts */
+.learn {
+  text-align: center;
+  background: #F1F1F1;
+  width: 100%;
+  height: 300px;
+}
+
+.let {
+  font-size: 30px;
+  color: #0000ff;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.skills {
+  background: #FFFFFF;
+  padding: 20px;
+  border-radius: 10px;
+  height: 200px;
+}
+
+.skills p {
+  margin: 30px;
+  padding: 40px;
+}
+/* learn end here */
+
+
+/* article styling */
+.art {
+padding: 40px;
+background: #FF9900;
+text-align: center;
+}
+
+article p {
+  font-family: 'Satisfy', cursive;
+  font-size: 30px;
+  line-height: 2px;
+  text-align: center;
+  color: #FFFFFF;
+}
+/* article styling ends here */
+
+
+/* footer styling begins and ends here */
+footer {
+  text-align: center;
+  background: #303030;
+  padding: 40px;
+  color: #F1F1F1;
+}
